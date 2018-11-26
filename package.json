@@ -1,6 +1,6 @@
 {
   "name": "codemirror-textmate",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Textmate based tokenization for CodeMirror",
   "main": "dist/index.js",
   "typings": "dist/typings/index.d.ts",
