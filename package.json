@@ -1,0 +1,43 @@
+{
+  "name": "codemirror-textmate",
+  "version": "0.0.0",
+  "description": "Textmate based tokenization for CodeMirror",
+  "main": "dist/index.js",
+  "typings": "dist/typings/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neeksandhu/codemirror-textmate.git"
+  },
+  "keywords": [
+    "codemirror",
+    "textmate",
+    "tm",
+    "tokenizer",
+    "highlighter"
+  ],
+  "author": "Neek Sandhu <neek.sandhu@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neeksandhu/codemirror-textmate/issues"
+  },
+  "homepage": "https://github.com/neeksandhu/codemirror-textmate#readme",
+  "dependencies": {
+    "lru-cache": "^4.1.3",
+    "monaco-textmate": "^3.0.0",
+    "p-cancelable": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/codemirror": "0.0.65",
+    "@types/lru-cache": "^4.1.1",
+    "@types/p-cancelable": "^0.5.0",
+    "typescript": "^3.1.3"
+  },
+  "peerDependencies": {
+    "codemirror": "^5.41.0",
+    "onigasm": "^2.2.1"
+  }
+}
