@@ -6,6 +6,11 @@
         "module": "commonjs",
         "declaration": true,
         "declarationDir": "dist/typings",
-        "sourceMap": true
-    }
+        "sourceMap": true,
+        "resolveJsonModule": true
+    },
+    "exclude": [
+        "demo",
+        "dist"
+    ]
 }
