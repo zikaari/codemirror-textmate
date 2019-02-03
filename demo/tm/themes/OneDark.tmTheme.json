@@ -1,0 +1,107 @@
+{
+    "author": "Alex Pardoe",
+    "colorSpaceName": "sRGB",
+    "name": "OneDark",
+    "semanticClass": "theme.dark.onedark",
+    "settings": [{
+        "settings": {
+            "background": "#282C34",
+            "caret": "#528BFF",
+            "foreground": "#ABB2BF",
+            "invisibles": "#747369",
+            "lineHighlight": "#4C576730",
+            "selection": "#3D4350"
+        }
+    }, {
+        "name": "Comment",
+        "scope": "comment",
+        "settings": {
+            "fontStyle": " italic",
+            "foreground": "#5C6370"
+        }
+    }, {
+        "name": "Foreground",
+        "scope": "keyword.operator.class, constant.other, source.php.embedded.line",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#ABB2BF"
+        }
+    }, {
+        "name": "Variable, String Link, Regular Expression, Tag Name",
+        "scope": "variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag",
+        "settings": {
+            "foreground": "#E06C75"
+        }
+    }, {
+        "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+        "scope": "constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded, keyword.other.unit",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#D19A66"
+        }
+    }, {
+        "name": "Class, Support",
+        "scope": "entity.name.class, entity.name.type.class, support.type, support.class",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#E5C07B"
+        }
+    }, {
+        "name": "String, Symbols, Inherited Class, Markup Heading",
+        "scope": "string, entity.other.inherited-class, markup.heading",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#98C379"
+        }
+    }, {
+        "name": "Misc",
+        "scope": " constant.other.color",
+        "settings": {
+            "foreground": "#ABB2BF"
+        }
+    }, {
+        "name": "Function, Special Method, Block Level",
+        "scope": "entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#61AFEF"
+        }
+    }, {
+        "name": "Keyword, Storage",
+        "scope": "keyword, storage, storage.type, entity.name.tag.css, keyword.operator",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#C678DD"
+        }
+    }, {
+        "name": "Invalid",
+        "scope": "invalid",
+        "settings": {
+            "background": "#F2777A",
+            "fontStyle": "",
+            "foreground": "#FFFFFF"
+        }
+    }, {
+        "name": "Separator",
+        "scope": "meta.separator",
+        "settings": {
+            "background": "#515151",
+            "foreground": "#ABB2BF"
+        }
+    }, {
+        "name": "Deprecated",
+        "scope": "invalid.deprecated",
+        "settings": {
+            "background": "#D27B53",
+            "fontStyle": "",
+            "foreground": "#272B33"
+        }
+    }, {
+        "name": "User Defined Constant",
+        "scope": "constant.character, constant.other",
+        "settings": {
+            "foreground": "#56B6C2"
+        }
+    }],
+    "uuid": "9301F284-582B-49AF-9DB7-C041BEC84843"
+}

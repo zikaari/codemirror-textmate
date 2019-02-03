@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "target": "es6",
+        "outDir": "dist",
+        "module": "commonjs",
+        "sourceMap": true,
+        "resolveJsonModule": true
+    }
+}
