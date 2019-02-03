@@ -5,11 +5,11 @@ import { Highlighter } from './Highlighter'
 
 export interface ITextmateThemePlus extends IRawTheme {
     gutterSettings?: {
-        background: string
-        divider: string
-        foreground: string
-        lineActiveBackground: string
-        lineActiveForeground: string
+        background?: string
+        divider?: string
+        foreground?: string
+        lineActiveBackground?: string
+        lineActiveForeground?: string
     }
 }
 
