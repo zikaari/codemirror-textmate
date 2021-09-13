@@ -42,7 +42,7 @@ export async function unlinkInjections(scopeName: string, unInjectFrom: string[]
     return affectedLanguages
 }
 
-const themedHighlighters: Map<string, Highlighter> = new Map()
+export const themedHighlighters: Map<string, Highlighter> = new Map()
 themedHighlighters.set('default', new Highlighter())
 
 /**
