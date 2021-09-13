@@ -37,7 +37,7 @@ class Highlighter {
             if (Highlighter.scopeNameToInjections.has(scope)) {
                 Highlighter.scopeNameToInjections.get(scope).add(scopeName)
             } else {
-                Highlighter.scopeNameToInjections.set(scope, new Set().add(scopeName))
+                Highlighter.scopeNameToInjections.set(scope, new Set<string>().add(scopeName))
             }
             if (Highlighter.scopeNameToLanguageId.has(scope)) {
                 affectedLanguages.add(Highlighter.scopeNameToLanguageId.get(scope))
